@@ -10,7 +10,7 @@ import Header from './components/Header';
 ReactDOM.render(
   <BrowserRouter>
   <Routes>
-
+  <Route path='/' element={<Header/>}/>
   <Route path='/Home/:productid' element={<Home/>}/>
   <Route path='/App/' element={<App/>}/>
 
